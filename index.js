@@ -78,6 +78,8 @@ const couple = (person) => {
 }
 
 const matching = (first, second) => {
+  firstHalf = first;
+  secondHalf = second;
   init(first, firstFreeHalf);//working
   init(second, secondFreeHalf)
 
