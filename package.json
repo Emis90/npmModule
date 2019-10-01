@@ -1,0 +1,19 @@
+{
+  "name": "matchingev-one",
+  "version": "1.0.1",
+  "description": "mathing two groups of people/objects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emis90/npmModule.git"
+  },
+  "keywords": [
+    "matching"
+  ],
+  "author": "Enida Vezelaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emis90/npmModule/issues"
+  },
+  "homepage": "https://github.com/Emis90/npmModule#readme"
+}
