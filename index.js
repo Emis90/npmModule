@@ -78,8 +78,14 @@ const couple = (person) => {
 }
 
 const matching = (first, second) => {
-  firstHalf = first;
-  secondHalf = second;
+  if (Object.keys(first).length % 2 !== 0 && Object.keys(first).length % 2 === 0) {
+    firstHalf = second;
+    secondHalf = first
+  } else {
+    firstHalf = first;
+    secondHalf = second;
+  }
+
   init(first, firstFreeHalf);//working
   init(second, secondFreeHalf)
 
